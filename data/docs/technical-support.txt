@@ -1,0 +1,97 @@
+ACMESAAS TECHNICAL SUPPORT GUIDE
+Last Updated: January 2025
+============================================
+
+COMMON ISSUES AND RESOLUTIONS
+
+--- ISSUE: Cannot Log In ---
+Symptoms: Login page shows error, password not accepted, account locked
+
+Resolution Steps:
+1. Try password reset at app.acmesaas.com/forgot-password
+2. Check for login email in spam/junk folder
+3. If using SSO (Google/Microsoft): ensure your organization's SSO is active
+4. If account shows "suspended": likely a billing issue — check Dashboard → Billing
+5. If error says "account not found": you may be using a different email address
+6. Contact support@acmesaas.com if all above steps fail — include your account email
+
+--- ISSUE: Slow Performance or Timeout Errors ---
+Symptoms: Pages load slowly, API calls timing out, dashboard unresponsive
+
+Resolution Steps:
+1. Check status.acmesaas.com for active incidents
+2. Clear browser cache (Ctrl+Shift+Delete) and try again
+3. Try a different browser or incognito mode
+4. Check your internet connection speed (minimum recommended: 5 Mbps)
+5. If using API: check rate limits — default is 100 requests/minute per account
+6. For persistent slowness: email support@acmesaas.com with your account ID and timestamp
+
+--- ISSUE: Data Not Syncing ---
+Symptoms: Dashboard shows old data, reports not updating, integrations not syncing
+
+Resolution Steps:
+1. Go to Dashboard → Settings → Integrations and click "Force Sync"
+2. Check if the connected third-party tool (Salesforce, HubSpot, etc.) is authenticated
+3. Re-authenticate the integration: disconnect and reconnect with fresh credentials
+4. Syncs run automatically every 15 minutes — wait 15 minutes and refresh
+5. For Zapier issues: check your Zap history for error logs
+6. If data missing for >2 hours: raise a ticket at support.acmesaas.com with timestamps
+
+--- ISSUE: API Not Working ---
+Symptoms: 401 Unauthorized, 403 Forbidden, 429 Too Many Requests, 500 errors
+
+401 Unauthorized:
+- API key is invalid or expired
+- Regenerate at Dashboard → Developer → API Keys
+- Ensure key is passed in header: Authorization: Bearer YOUR_API_KEY
+
+403 Forbidden:
+- Your plan does not include API access (API available on Growth plan and above)
+- Check your current plan at Dashboard → Account → Subscription
+
+429 Too Many Requests:
+- Rate limit exceeded: 100 req/min (Growth), 500 req/min (Business), Unlimited (Enterprise)
+- Implement exponential backoff in your code
+- Contact sales@acmesaas.com to request a rate limit increase
+
+500 Internal Server Error:
+- Check status.acmesaas.com first
+- Include request ID from response header when contacting support
+- Email: api-support@acmesaas.com
+
+--- ISSUE: Email Notifications Not Arriving ---
+Symptoms: Not receiving invoices, alerts, or verification emails
+
+Resolution Steps:
+1. Check spam/junk folder and whitelist noreply@acmesaas.com
+2. Verify email address at Dashboard → Account → Profile
+3. Check notification preferences at Dashboard → Settings → Notifications
+4. Ask your IT team if acmesaas.com domain is blocked at the firewall level
+5. For invoice emails specifically: check Dashboard → Billing → Invoices for manual download
+
+--- ISSUE: Integration with CRM Not Working ---
+Symptoms: Contacts not syncing, deals not updating, fields mapping wrong
+
+Salesforce Integration:
+- Requires Salesforce Professional or above
+- Re-authenticate at Dashboard → Integrations → Salesforce → Reconnect
+- Field mapping guide: docs.acmesaas.com/integrations/salesforce
+
+HubSpot Integration:
+- Requires HubSpot Starter or above
+- Common issue: Ensure "CRM Sync" permission is granted during OAuth
+- Guide: docs.acmesaas.com/integrations/hubspot
+
+Zapier Integration:
+- Use API Key authentication (not OAuth) for most reliable syncs
+- If Zap fails silently: enable "Error Notifications" in Zapier settings
+
+--- SUPPORT CONTACTS BY ISSUE TYPE ---
+
+Billing issues:        billing@acmesaas.com
+Technical issues:      support@acmesaas.com
+API issues:            api-support@acmesaas.com
+Enterprise/contracts:  enterprise@acmesaas.com
+Security concerns:     security@acmesaas.com
+SLA claims:            sla@acmesaas.com
+Status & incidents:    status.acmesaas.com

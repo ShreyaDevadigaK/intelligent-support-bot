@@ -1,0 +1,108 @@
+ACMESAAS SERVICE LEVEL AGREEMENT (SLA)
+Version 3.0 | Effective: January 2025
+============================================
+
+SECTION 1 — UPTIME GUARANTEE
+
+1.1 Uptime Commitment by Plan
+
+   Starter Plan:   99.5% monthly uptime
+   Growth Plan:    99.9% monthly uptime
+   Business Plan:  99.95% monthly uptime
+   Enterprise Plan: 99.99% monthly uptime
+
+1.2 How Uptime is Calculated
+   Uptime % = ((Total minutes in month − Downtime minutes) / Total minutes) × 100
+   Scheduled maintenance windows are EXCLUDED from downtime calculation.
+
+1.3 Scheduled Maintenance
+   - Scheduled every 2nd Sunday between 2:00 AM and 4:00 AM IST
+   - Advance notice: 72 hours via email and status page
+   - Emergency maintenance: Minimum 30-minute notice via status page
+
+SECTION 2 — SERVICE CREDITS FOR DOWNTIME
+
+2.1 Credit Schedule
+   If monthly uptime falls below the guaranteed level:
+
+   Starter Plan:
+   - 99.0% to 99.4%: 10% bill credit
+   - 98.0% to 98.9%: 25% bill credit
+   - Below 98.0%:    50% bill credit
+
+   Growth Plan:
+   - 99.5% to 99.8%: 10% bill credit
+   - 99.0% to 99.4%: 25% bill credit
+   - Below 99.0%:    50% bill credit
+
+   Business Plan:
+   - 99.9% to 99.94%: 10% bill credit
+   - 99.5% to 99.89%: 25% bill credit
+   - Below 99.5%:     50% bill credit
+
+   Enterprise Plan:
+   - 99.95% to 99.98%: 10% bill credit
+   - 99.9% to 99.94%:  25% bill credit
+   - Below 99.9%:      50% bill credit
+
+2.2 Maximum Credit
+   Total service credits cannot exceed 50% of monthly bill in any single month.
+   Credits are applied to next invoice, not paid as cash refunds.
+
+2.3 How to Claim SLA Credits
+   - Submit claim within 30 days of the incident
+   - Email: sla@acmesaas.com with subject "SLA CREDIT CLAIM"
+   - Include: Account email, incident date, incident reference number
+   - Claims reviewed within 5 business days
+
+SECTION 3 — INCIDENT RESPONSE TIMES
+
+3.1 Severity Definitions and Response Commitments
+
+   SEV-1 (Critical) — Complete outage, all users affected
+   - Detection target:  5 minutes (automated monitoring)
+   - First response:    15 minutes
+   - Status update:     Every 30 minutes
+   - Resolution target: 2 hours
+
+   SEV-2 (High) — Major feature unavailable, >50% users affected
+   - First response:    30 minutes
+   - Status update:     Every 1 hour
+   - Resolution target: 4 hours
+
+   SEV-3 (Medium) — Partial degradation, workaround available
+   - First response:    2 hours
+   - Status update:     Every 4 hours
+   - Resolution target: 24 hours
+
+   SEV-4 (Low) — Minor issue, cosmetic, single user
+   - First response:    1 business day
+   - Resolution target: 5 business days
+
+3.2 Status Page
+   Live status, incident history, and maintenance schedule:
+   status.acmesaas.com
+   Subscribe for real-time alerts via email or Slack.
+
+SECTION 4 — SUPPORT RESPONSE TIMES BY PLAN
+
+   Starter Plan:
+   - Email support only
+   - Response time: 1 business day
+   - Available: Monday–Friday
+
+   Growth Plan:
+   - Email + Live chat
+   - Response time: 4 business hours
+   - Available: Monday–Friday 9am–6pm IST
+
+   Business Plan:
+   - Email + Live chat + Phone
+   - Response time: 1 business hour
+   - Available: Monday–Saturday 8am–8pm IST
+
+   Enterprise Plan:
+   - Dedicated Customer Success Manager
+   - Response time: 15 minutes (business hours), 1 hour (off-hours)
+   - Available: 24/7/365
+   - Quarterly business reviews included

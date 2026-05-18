@@ -1,0 +1,78 @@
+ACMESAAS CANCELLATION POLICY
+Version 1.8 | Last Updated: January 2025
+============================================
+
+SECTION 1 — HOW TO CANCEL
+
+1.1 Self-Service Cancellation
+Customers can cancel anytime from:
+- Dashboard → Account Settings → Subscription → Cancel Plan
+- No phone call required. Cancellation is instant.
+
+1.2 Cancellation via Support
+If self-service is unavailable:
+- Email: cancel@acmesaas.com
+- Live chat with subject "Cancel My Account"
+- Response and confirmation within 2 business hours
+
+1.3 What Happens After Cancellation
+- Access continues until end of current billing period
+- No further charges after cancellation date
+- Data is retained for 90 days post-cancellation (then permanently deleted)
+- Customer receives cancellation confirmation email immediately
+
+SECTION 2 — MONTHLY PLAN CANCELLATIONS
+
+2.1 Timing
+- Cancellations take effect at end of current billing month
+- Example: Cancel on March 15 → Access until March 31 → No April charge
+
+2.2 Refund Eligibility
+- Monthly plans: No refund after day 3 of billing cycle
+- If cancelled within 3 days: Eligible for full refund (first time only)
+
+SECTION 3 — ANNUAL PLAN CANCELLATIONS
+
+3.1 Within 14 Days (Free Trial Window)
+- Full refund, no questions asked
+- Processed within 5–7 business days
+
+3.2 Between 14 Days and 6 Months
+- Pro-rated refund for unused months
+- Formula: (Months remaining / 12) × Annual fee paid
+- Example: Cancel after 3 months on ₹12,000/year plan → Refund = (9/12) × ₹12,000 = ₹9,000
+
+3.3 After 6 Months
+- No refund issued
+- Access continues until annual period ends
+
+SECTION 4 — TEAM AND ENTERPRISE PLAN CANCELLATIONS
+
+4.1 Team Plans (2–10 seats)
+- 30-day written notice required
+- Email: enterprise@acmesaas.com
+- Pro-rated refund calculated by support team
+
+4.2 Enterprise Plans (11+ seats)
+- 60-day written notice required per contract terms
+- Governed by individual Master Service Agreement (MSA)
+- Contact your dedicated Customer Success Manager
+
+SECTION 5 — PAUSE INSTEAD OF CANCEL
+
+5.1 Plan Pause Option
+Before cancelling, customers can pause their subscription:
+- Available for monthly plans only
+- Pause duration: 1 to 3 months maximum
+- Cost: ₹199/month to hold account and data
+- All data and settings preserved during pause
+
+5.2 How to Pause
+Dashboard → Account Settings → Subscription → Pause Plan
+Or contact support@acmesaas.com
+
+SECTION 6 — REACTIVATION AFTER CANCELLATION
+
+- Reactivate anytime within 90 days at same plan pricing
+- After 90 days: Data deleted, reactivation at current pricing
+- Reactivate at: app.acmesaas.com/reactivate

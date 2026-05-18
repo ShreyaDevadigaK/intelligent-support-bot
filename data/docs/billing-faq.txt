@@ -1,0 +1,76 @@
+ACMESAAS BILLING — FREQUENTLY ASKED QUESTIONS
+Last Updated: January 2025
+============================================
+
+Q: When am I charged each month?
+A: You are charged on the same date each month as your original signup date.
+   Example: Signed up on the 5th → charged every 5th of the month.
+   If signup was on the 31st, charge falls on the last day of shorter months.
+
+Q: What payment methods do you accept?
+A: We accept:
+   - Visa, Mastercard, American Express, RuPay (credit and debit)
+   - UPI (GPay, PhonePe, Paytm)
+   - Net banking (all major Indian banks)
+   - International cards (Visa/Mastercard with international transactions enabled)
+   - We do NOT accept cash, cheques, or PayPal currently.
+
+Q: Why was I charged twice this month?
+A: Duplicate charges can happen due to a payment gateway timeout where 
+   the transaction retried automatically. This is detected by our system 
+   within 24 hours and the duplicate amount is refunded automatically 
+   within 2 business days. You will receive an email confirmation.
+   If you don't receive a refund within 3 business days, email billing@acmesaas.com
+   with your invoice number.
+
+Q: My card was declined. What do I do?
+A: Common reasons for declined cards:
+   1. Insufficient balance — top up and retry from Dashboard → Billing → Retry Payment
+   2. International transaction not enabled — contact your bank
+   3. Card expired — update at Dashboard → Billing → Payment Methods
+   4. Bank blocked the transaction — call your bank's helpline
+   We retry failed payments automatically after 3 days and 7 days before suspending access.
+
+Q: Can I change my billing date?
+A: Billing date changes are not available for monthly plans.
+   For annual plans, the renewal date is fixed to the original purchase date.
+   Contact billing@acmesaas.com if you need a special arrangement.
+
+Q: I upgraded my plan. How does billing work?
+A: When you upgrade mid-cycle:
+   - You pay only the difference (pro-rated) for the remaining days in the cycle
+   - Example: Upgrade 15 days into a 30-day cycle → pay 50% of the price difference
+   - New features are available immediately upon upgrade
+
+Q: I downgraded my plan. Will I get a refund?
+A: Yes, when you downgrade:
+   - The credit for unused days on the higher plan is applied to your next invoice
+   - You will NOT receive a cash refund for downgrades — only account credit
+   - Credit expires after 6 months if unused
+
+Q: What is the GST applied on my invoice?
+A: AcmeSaaS is GST registered. Applicable tax: 18% GST on all plans.
+   GST number: 29ABCDE1234F1ZX
+   For GST invoices, update your GSTIN at Dashboard → Billing → Tax Details.
+   GST invoices are auto-generated and emailed on each billing date.
+
+Q: Can I get an invoice for my company?
+A: Yes. Go to Dashboard → Billing → Invoices to download all past invoices as PDF.
+   To add company name, address, and GSTIN, go to Dashboard → Billing → Tax Details.
+   For bulk invoice requests (12+ months), email billing@acmesaas.com.
+
+Q: What happens if I don't pay on time?
+A: Grace period and suspension timeline:
+   - Day 0: Payment fails → Email notification sent
+   - Day 3: Automatic retry → Second email sent
+   - Day 7: Second retry → Warning email with suspension notice
+   - Day 10: Account suspended (read-only access, no new data)
+   - Day 30: Account permanently deleted (data cannot be recovered)
+   To avoid suspension, update payment method at Dashboard → Billing.
+
+Q: Do you offer discounts for startups or NGOs?
+A: Yes:
+   - Startups (under 2 years old): 30% discount — apply at acmesaas.com/startup
+   - NGOs and nonprofits: 50% discount — send proof to nonprofit@acmesaas.com
+   - Students and educators: 40% discount — verify at acmesaas.com/edu
+   Discounts apply to monthly and annual plans and cannot be combined.

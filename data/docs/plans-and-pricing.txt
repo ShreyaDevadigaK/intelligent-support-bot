@@ -1,0 +1,83 @@
+ACMESAAS PLANS AND PRICING
+Last Updated: January 2025
+============================================
+
+MONTHLY PLANS
+
+Starter Plan — ₹999/month
+- Up to 2 users
+- 5 GB storage
+- Email support (1 business day response)
+- Core features: Dashboard, Reports, Integrations (3 max)
+- API access: Not included
+- Uptime SLA: 99.5%
+
+Growth Plan — ₹2,999/month
+- Up to 10 users
+- 25 GB storage
+- Email + Live chat support (4 hour response)
+- All Starter features + Advanced reports, Automation, API access
+- API rate limit: 100 requests/minute
+- Integrations: Unlimited
+- Uptime SLA: 99.9%
+
+Business Plan — ₹7,999/month
+- Up to 50 users
+- 100 GB storage
+- Email + Chat + Phone support (1 hour response)
+- All Growth features + Custom roles, SSO, Audit logs, Priority support
+- API rate limit: 500 requests/minute
+- Dedicated onboarding (2 sessions)
+- Uptime SLA: 99.95%
+
+Enterprise Plan — Custom pricing
+- Unlimited users
+- Unlimited storage
+- 24/7 dedicated Customer Success Manager
+- All Business features + Custom contracts, SLA, Data residency
+- API rate limit: Unlimited
+- Uptime SLA: 99.99%
+- Quarterly business reviews
+- Contact: sales@acmesaas.com
+
+ANNUAL PLANS (Save 20%)
+
+Starter Annual:  ₹9,590/year  (₹799/month equivalent)
+Growth Annual:   ₹28,790/year (₹2,399/month equivalent)
+Business Annual: ₹76,790/year (₹6,399/month equivalent)
+
+PLAN COMPARISON — KEY FEATURES
+
+Feature                  | Starter | Growth | Business | Enterprise
+-------------------------|---------|--------|----------|----------
+Users                    | 2       | 10     | 50       | Unlimited
+Storage                  | 5 GB    | 25 GB  | 100 GB   | Unlimited
+API Access               | No      | Yes    | Yes      | Yes
+SSO (Google/Microsoft)   | No      | No     | Yes      | Yes
+Audit Logs               | No      | No     | Yes      | Yes
+Custom Roles             | No      | No     | Yes      | Yes
+Data Export              | CSV     | CSV    | CSV+API  | All formats
+Uptime SLA               | 99.5%   | 99.9%  | 99.95%   | 99.99%
+Support                  | Email   | Email+Chat | Email+Chat+Phone | Dedicated CSM
+
+PLAN CHANGES
+
+Upgrading:
+- Instant access to new features
+- Pro-rated charge for remaining days in cycle
+- No downtime during upgrade
+
+Downgrading:
+- Takes effect at next billing cycle
+- Unused credit applied to next invoice (not refunded as cash)
+- If current usage exceeds new plan limits, must reduce usage first
+  (e.g., reduce users to under new plan limit before downgrading)
+
+FREE TRIAL
+
+- 14-day free trial available for Starter and Growth plans
+- No credit card required for trial
+- Full access to all plan features during trial
+- Trial starts at: app.acmesaas.com/trial
+- After 14 days: Automatically moves to free Starter tier (limited features)
+  unless payment method added
