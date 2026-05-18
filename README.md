@@ -175,34 +175,6 @@ Note: Tests require `OPENAI_API_KEY` set in `.env`.
 
 ---
 
-## 🔧 Customization
-
-### Change Response Tone
-Edit `rag/generator.py` → `build_system_prompt()` to adjust warmth, formality, etc.
-
-### Add New Intents
-Edit `tag/classifier.py` → `TAG_SYSTEM_PROMPT` to recognize new intent types.
-
-### Adjust Urgency Rules
-Edit `router/decision_gate.py` → `route()` function to change escalation thresholds.
-
-### Change Search Quality
-Edit `rag/retriever.py` → `confidence_threshold` (default 0.4) to be stricter or looser.
-
----
-
-## 📊 Supported Intents
-
-- `billing_dispute` — Payment issues, wrong charges, refunds
-- `cancel_request` — Cancellation requests
-- `refund_request` — Refund inquiries  
-- `technical_issue` — Features, bugs, errors
-- `general_inquiry` — How-tos, general questions
-- `compliment` — Positive feedback
-- `escalation_request` — Request to speak with human
-
----
-
 ## 🛡️ Best Practices
 
 1. **Keep docs up to date** — Stale policies = bad responses
@@ -210,33 +182,5 @@ Edit `rag/retriever.py` → `confidence_threshold` (default 0.4) to be stricter 
 3. **Test before prod** — Always test with real docs first
 4. **Secure your `.env`** — Never commit API keys to GitHub (already in `.gitignore`)
 5. **Track performance** — Log intent/sentiment to find common patterns
-
----
-
-## ❓ FAQ
-
-**Q: Can I use this with Anthropic Claude instead of OpenAI?**  
-A: Yes! Update `classifier.py` and `generator.py` to use the Anthropic API instead.
-
-**Q: What if a customer asks something not in my docs?**  
-A: The bot will say so honestly — "I don't have information about that in our knowledge base. Let me connect you with a specialist."
-
-**Q: How do I update my knowledge base?**  
-A: Add new `.txt` files to `data/docs/` and re-run `python rag/indexer.py`.
-
-**Q: Is this production-ready?**  
-A: It's a solid foundation! For production, add: rate limiting, logging, authentication, error handling, and monitoring.
-
----
-
-## 📄 License
-
-MIT
-
----
-
-## 💡 Questions or Issues?
-
-Create an issue on GitHub or reach out!
 
 **Happy supporting! 🚀**
